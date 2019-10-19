@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box-warp {
+            text-align: center;
+            /* 把文本排列到中间。 */
+            background-color: yellow;
+            overflow: hidden;
+            /* 溢出的内容会被修剪 */
+        }
+
+        .box-warp>div {
+            /* >可以选择所有的一代子元素 */
+            width: 31%;
+            padding-bottom: 31%;
+            /* 填充底部 */
+            margin: 1%;
+            border-radius: 10%;
+            /* 边界半径 */
+            float: left;
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-warp">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
